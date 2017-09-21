@@ -1,0 +1,34 @@
+.App {
+  padding: 5%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.partyPopper {
+  width: 200px;
+  height: 200px;
+}
+
+.fade {
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+.age-stats {
+  opacity: 100;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0 }
+  to { opacity: 100 }
+}
